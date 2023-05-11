@@ -1,0 +1,11 @@
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\bin\Debug\BibliotecaApp.exe.config
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\bin\Debug\BibliotecaApp.exe
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\bin\Debug\BibliotecaApp.pdb
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\obj\Debug\BibliotecaApp.csproj.AssemblyReference.cache
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\obj\Debug\BibliotecaApp.csproj.SuggestedBindingRedirects.cache
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\obj\Debug\BibliotecaApp.Form1.resources
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\obj\Debug\BibliotecaApp.Properties.Resources.resources
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\obj\Debug\BibliotecaApp.csproj.GenerateResource.cache
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\obj\Debug\BibliotecaApp.csproj.CoreCompileInputs.cache
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\obj\Debug\BibliotecaApp.exe
+C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\obj\Debug\BibliotecaApp.pdb
