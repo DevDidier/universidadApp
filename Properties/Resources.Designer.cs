@@ -73,6 +73,16 @@ namespace BibliotecaApp.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap banner_auton {
+            get {
+                object obj = ResourceManager.GetObject("banner_auton", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap blackandwhite {
             get {
                 object obj = ResourceManager.GetObject("blackandwhite", resourceCulture);
@@ -126,6 +136,26 @@ namespace BibliotecaApp.Properties {
         internal static System.Drawing.Bitmap libro {
             get {
                 object obj = ResourceManager.GetObject("libro", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logo_autonoma_de_narino_AUNAR {
+            get {
+                object obj = ResourceManager.GetObject("logo-autonoma-de-narino-AUNAR", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap logoDiv {
+            get {
+                object obj = ResourceManager.GetObject("logoDiv", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
