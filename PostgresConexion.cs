@@ -1,39 +1,29 @@
 ﻿using Npgsql;
 using System;
 
-public class PostgresConexion
+namespace BibliotecaApp
 {
-    private static string servidor = "localhost";
-    private static string puerto = "5433";
-    private static string usuario = "postgres";
-    private static string contrasena = "didier2001";
-    private static string baseDatos = "universidad";
-
-    private NpgsqlConnection conexion;
-
-    public PostgresConexion()
+    public class PostgresConexion
     {
-        string cadenaConexion = string.Format("Server={0};Port={1};User Id={2};Password={3};Database={4};",
-                                                servidor, puerto, usuario, contrasena, baseDatos);
-        conexion = new NpgsqlConnection(cadenaConexion);
-    }
+        private NpgsqlConnection cnn;
 
-    public NpgsqlConnection Conectar()
-    {
-        try
+        public NpgsqlConnection Conectar()
         {
-            conexion.Open();
-            return conexion;
+            try
+            {
+                cnn = new NpgsqlConnection("Server=localhost;Port=5433;User Id=postgres;Password=didier2001;Database=universidad;");
+                cnn.Open();
+                return cnn;
+            }
+            catch (Exception)
+            {
+                return null;
+            }
         }
-        catch (Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-            return null;
-        }
-    }
 
-    public void Cerrar()
-    {
-        conexion.Close();
+        public void Desconectar()
+        {
+            cnn.Close();
+        }
     }
 }

@@ -183,7 +183,7 @@
             this.msm_ingresar.AutoSize = true;
             this.msm_ingresar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.msm_ingresar.ForeColor = System.Drawing.Color.Red;
-            this.msm_ingresar.Location = new System.Drawing.Point(192, 431);
+            this.msm_ingresar.Location = new System.Drawing.Point(145, 429);
             this.msm_ingresar.Name = "msm_ingresar";
             this.msm_ingresar.Size = new System.Drawing.Size(23, 18);
             this.msm_ingresar.TabIndex = 6;
