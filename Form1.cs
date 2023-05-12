@@ -117,7 +117,7 @@ namespace BibliotecaApp
                 paginas = int.Parse(inputPaginas.Text);
 
                 if (nombre.Length > 5)
-                {
+                { 
                     if (autor.Length > 4)
                     {
                         if (paginas > 10)
