@@ -22,6 +22,41 @@ namespace BibliotecaApp
             inputPaginas.KeyPress += new KeyPressEventHandler(inputPaginas_KeyPress);
         }
 
+        public bool InsertarLibro(string nombre, string autor, int paginas)
+        {
+            try
+            {
+                using (var cnn = postgresConexion.Conectar())
+                {
+                    if (cnn != null)
+                    {
+                        var sql = "INSERT INTO catalogo_biblioteca (nombre, autor, paginas, fecha_ingreso) " +
+                                  "VALUES (@nombre, @autor, @paginas, @fecha)";
+
+                        using (NpgsqlCommand cmd = new NpgsqlCommand(sql, cnn))
+                        {
+                            cmd.Parameters.AddWithValue("nombre", nombre);
+                            cmd.Parameters.AddWithValue("autor", autor);
+                            cmd.Parameters.AddWithValue("paginas", paginas);
+                            cmd.Parameters.AddWithValue("fecha", DateTime.Now);
+
+                            cmd.ExecuteNonQuery();
+                        }
+                    }
+                    else
+                    {
+                        Console.WriteLine("No se pudo establecer la conexión con la base de datos");
+                        return false;
+                    }
+                }
+                return true;
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"Error al insertar el libro: {ex.Message}");
+                return false;
+            }
+        }
         private void Form1_Load(object sender, EventArgs e)
         {
             panelHome.Visible = true;
@@ -82,16 +117,16 @@ namespace BibliotecaApp
                 paginas = int.Parse(inputPaginas.Text);
 
                 if (nombre.Length > 5)
-                { 
+                {
                     if (autor.Length > 4)
                     {
                         if (paginas > 10)
                         {
-                            bool ingreso = cnn.InsertarLibro(nombre, autor, paginas);
-                            if(ingreso)
+                            bool ingreso = InsertarLibro(nombre, autor, paginas);
+                            if (ingreso)
                             {
                                 msm_ingresar.Text = "Se Ingreso de Forma Correcta el Libro";
-                                inputNombre.Text = "";inputPaginas.Text = "";inputAutor.Text = "";
+                                inputNombre.Text = ""; inputPaginas.Text = ""; inputAutor.Text = "";
                             }
                             else
                             {
