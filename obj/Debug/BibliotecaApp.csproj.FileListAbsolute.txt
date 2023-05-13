@@ -40,3 +40,11 @@ C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\bin\Debug\System
 C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\bin\Debug\System.Threading.Tasks.Extensions.xml
 C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\bin\Debug\System.ValueTuple.xml
 C:\Users\didie\OneDrive\Escritorio\BibliotecaApp\universidadApp\obj\Debug\BibliotecaApp.csproj.CopyComplete
+C:\Users\juan_\OneDrive\Documentos\GitHub\universidadApp\obj\Debug\BibliotecaApp.csproj.AssemblyReference.cache
+C:\Users\juan_\OneDrive\Documentos\GitHub\universidadApp\obj\Debug\BibliotecaApp.exe.config
+C:\Users\juan_\OneDrive\Documentos\GitHub\universidadApp\obj\Debug\BibliotecaApp.Form1.resources
+C:\Users\juan_\OneDrive\Documentos\GitHub\universidadApp\obj\Debug\BibliotecaApp.Properties.Resources.resources
+C:\Users\juan_\OneDrive\Documentos\GitHub\universidadApp\obj\Debug\BibliotecaApp.csproj.GenerateResource.cache
+C:\Users\juan_\OneDrive\Documentos\GitHub\universidadApp\obj\Debug\BibliotecaApp.csproj.CoreCompileInputs.cache
+C:\Users\juan_\OneDrive\Documentos\GitHub\universidadApp\obj\Debug\BibliotecaApp.exe
+C:\Users\juan_\OneDrive\Documentos\GitHub\universidadApp\obj\Debug\BibliotecaApp.pdb
