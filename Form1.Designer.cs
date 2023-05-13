@@ -63,9 +63,10 @@
             this.navbar.Controls.Add(this.button1);
             this.navbar.Controls.Add(this.button3);
             this.navbar.Controls.Add(this.button2);
-            this.navbar.Location = new System.Drawing.Point(-4, 0);
+            this.navbar.Location = new System.Drawing.Point(-5, 0);
+            this.navbar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.navbar.Name = "navbar";
-            this.navbar.Size = new System.Drawing.Size(233, 536);
+            this.navbar.Size = new System.Drawing.Size(311, 660);
             this.navbar.TabIndex = 0;
             // 
             // btn_home
@@ -78,9 +79,10 @@
             this.btn_home.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.btn_home.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_home.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.btn_home.Location = new System.Drawing.Point(16, 15);
+            this.btn_home.Location = new System.Drawing.Point(21, 18);
+            this.btn_home.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_home.Name = "btn_home";
-            this.btn_home.Size = new System.Drawing.Size(200, 78);
+            this.btn_home.Size = new System.Drawing.Size(267, 96);
             this.btn_home.TabIndex = 4;
             this.btn_home.UseVisualStyleBackColor = false;
             this.btn_home.Click += new System.EventHandler(this.btn_home_Click);
@@ -91,9 +93,10 @@
             this.button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button4.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button4.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button4.Location = new System.Drawing.Point(16, 350);
+            this.button4.Location = new System.Drawing.Point(21, 431);
+            this.button4.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(200, 58);
+            this.button4.Size = new System.Drawing.Size(267, 71);
             this.button4.TabIndex = 3;
             this.button4.Text = "Salidas";
             this.button4.UseVisualStyleBackColor = true;
@@ -106,11 +109,12 @@
             this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button1.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button1.Location = new System.Drawing.Point(16, 158);
+            this.button1.Location = new System.Drawing.Point(21, 194);
+            this.button1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(200, 58);
+            this.button1.Size = new System.Drawing.Size(267, 71);
             this.button1.TabIndex = 0;
-            this.button1.Text = "Ingresar Libro";
+            this.button1.Text = "Registrar Libro";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
@@ -120,9 +124,10 @@
             this.button3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button3.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button3.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button3.Location = new System.Drawing.Point(16, 286);
+            this.button3.Location = new System.Drawing.Point(21, 352);
+            this.button3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(200, 58);
+            this.button3.Size = new System.Drawing.Size(267, 71);
             this.button3.TabIndex = 2;
             this.button3.Text = "Ingresar Salidas";
             this.button3.UseVisualStyleBackColor = true;
@@ -135,9 +140,10 @@
             this.button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.button2.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.button2.Location = new System.Drawing.Point(16, 222);
+            this.button2.Location = new System.Drawing.Point(21, 273);
+            this.button2.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(200, 58);
+            this.button2.Size = new System.Drawing.Size(267, 71);
             this.button2.TabIndex = 1;
             this.button2.Text = "Catalogo Libros";
             this.button2.UseVisualStyleBackColor = true;
@@ -148,9 +154,10 @@
             this.panelHome.Controls.Add(this.panel1);
             this.panelHome.Controls.Add(this.label1);
             this.panelHome.Controls.Add(this.pictureBox1);
-            this.panelHome.Location = new System.Drawing.Point(235, 12);
+            this.panelHome.Location = new System.Drawing.Point(313, 15);
+            this.panelHome.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelHome.Name = "panelHome";
-            this.panelHome.Size = new System.Drawing.Size(602, 508);
+            this.panelHome.Size = new System.Drawing.Size(803, 625);
             this.panelHome.TabIndex = 1;
             this.panelHome.Visible = false;
             this.panelHome.Paint += new System.Windows.Forms.PaintEventHandler(this.panelHome_Paint);
@@ -166,16 +173,18 @@
             this.panel1.Controls.Add(this.inputNombre);
             this.panel1.Controls.Add(this.label2);
             this.panel1.Location = new System.Drawing.Point(0, 0);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(602, 505);
+            this.panel1.Size = new System.Drawing.Size(803, 622);
             this.panel1.TabIndex = 2;
             this.panel1.Visible = false;
             // 
             // inputPaginas
             // 
-            this.inputPaginas.Location = new System.Drawing.Point(258, 264);
+            this.inputPaginas.Location = new System.Drawing.Point(344, 325);
+            this.inputPaginas.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.inputPaginas.Name = "inputPaginas";
-            this.inputPaginas.Size = new System.Drawing.Size(89, 20);
+            this.inputPaginas.Size = new System.Drawing.Size(117, 22);
             this.inputPaginas.TabIndex = 7;
             // 
             // msm_ingresar
@@ -183,9 +192,10 @@
             this.msm_ingresar.AutoSize = true;
             this.msm_ingresar.Font = new System.Drawing.Font("Arial Rounded MT Bold", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.msm_ingresar.ForeColor = System.Drawing.Color.Red;
-            this.msm_ingresar.Location = new System.Drawing.Point(145, 429);
+            this.msm_ingresar.Location = new System.Drawing.Point(193, 528);
+            this.msm_ingresar.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.msm_ingresar.Name = "msm_ingresar";
-            this.msm_ingresar.Size = new System.Drawing.Size(23, 18);
+            this.msm_ingresar.Size = new System.Drawing.Size(28, 23);
             this.msm_ingresar.TabIndex = 6;
             this.msm_ingresar.Text = "...";
             // 
@@ -197,11 +207,12 @@
             this.btn_ingresar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btn_ingresar.Font = new System.Drawing.Font("Consolas", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btn_ingresar.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(128)))), ((int)(((byte)(64)))), ((int)(((byte)(0)))));
-            this.btn_ingresar.Location = new System.Drawing.Point(232, 338);
+            this.btn_ingresar.Location = new System.Drawing.Point(309, 416);
+            this.btn_ingresar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btn_ingresar.Name = "btn_ingresar";
-            this.btn_ingresar.Size = new System.Drawing.Size(145, 58);
+            this.btn_ingresar.Size = new System.Drawing.Size(193, 71);
             this.btn_ingresar.TabIndex = 5;
-            this.btn_ingresar.Text = "Ingresar";
+            this.btn_ingresar.Text = "Registar";
             this.btn_ingresar.UseVisualStyleBackColor = true;
             this.btn_ingresar.Click += new System.EventHandler(this.btn_ingresar_Click);
             // 
@@ -210,17 +221,19 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label4.Location = new System.Drawing.Point(189, 243);
+            this.label4.Location = new System.Drawing.Point(252, 299);
+            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(232, 18);
+            this.label4.Size = new System.Drawing.Size(290, 22);
             this.label4.TabIndex = 4;
             this.label4.Text = "Ingrese el Numero de Paginas";
             // 
             // inputAutor
             // 
-            this.inputAutor.Location = new System.Drawing.Point(195, 167);
+            this.inputAutor.Location = new System.Drawing.Point(260, 206);
+            this.inputAutor.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.inputAutor.Name = "inputAutor";
-            this.inputAutor.Size = new System.Drawing.Size(221, 20);
+            this.inputAutor.Size = new System.Drawing.Size(293, 22);
             this.inputAutor.TabIndex = 3;
             // 
             // label3
@@ -228,17 +241,19 @@
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(192, 146);
+            this.label3.Location = new System.Drawing.Point(256, 180);
+            this.label3.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(224, 18);
+            this.label3.Size = new System.Drawing.Size(280, 22);
             this.label3.TabIndex = 2;
             this.label3.Text = "Ingrese el Nombre del Autor";
             // 
             // inputNombre
             // 
-            this.inputNombre.Location = new System.Drawing.Point(195, 54);
+            this.inputNombre.Location = new System.Drawing.Point(260, 66);
+            this.inputNombre.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.inputNombre.Name = "inputNombre";
-            this.inputNombre.Size = new System.Drawing.Size(221, 20);
+            this.inputNombre.Size = new System.Drawing.Size(293, 22);
             this.inputNombre.TabIndex = 1;
             // 
             // label2
@@ -246,9 +261,10 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Consolas", 11.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label2.Location = new System.Drawing.Point(192, 33);
+            this.label2.Location = new System.Drawing.Point(256, 41);
+            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(224, 18);
+            this.label2.Size = new System.Drawing.Size(280, 22);
             this.label2.TabIndex = 0;
             this.label2.Text = "Ingrese el Nombre del Libro";
             // 
@@ -258,9 +274,10 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Consolas", 21.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label1.Location = new System.Drawing.Point(50, 314);
+            this.label1.Location = new System.Drawing.Point(67, 386);
+            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(527, 34);
+            this.label1.Size = new System.Drawing.Size(659, 43);
             this.label1.TabIndex = 1;
             this.label1.Text = "Sistema de Gestion Bibliotecario";
             // 
@@ -270,22 +287,24 @@
             this.pictureBox1.BackColor = System.Drawing.Color.Transparent;
             this.pictureBox1.BackgroundImage = global::BibliotecaApp.Properties.Resources.logo_autonoma_de_narino_AUNAR;
             this.pictureBox1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.pictureBox1.Location = new System.Drawing.Point(129, 3);
+            this.pictureBox1.Location = new System.Drawing.Point(172, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(344, 308);
+            this.pictureBox1.Size = new System.Drawing.Size(459, 379);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = global::BibliotecaApp.Properties.Resources.fondo_ladrillos;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
-            this.ClientSize = new System.Drawing.Size(849, 532);
+            this.ClientSize = new System.Drawing.Size(1132, 655);
             this.Controls.Add(this.panelHome);
             this.Controls.Add(this.navbar);
             this.DoubleBuffered = true;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
