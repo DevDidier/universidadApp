@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace BibliotecaApp
 {
-    public partial class Formdeprueba : Form
+    public partial class Form3 : Form
     {
-        public Formdeprueba()
+        public Form3()
         {
             InitializeComponent();
         }
